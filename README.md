@@ -1,5 +1,7 @@
 # Take-Home Test: Machine Learning Researcher at BDMLI
 
+Here is the link how I use BERT: https://www.kaggle.com/code/foolofatook/news-classification-using-bert
+
 ## Task Overview
 This take-home test aims to assess my ability to identify and select relevant datasets and models for specific tasks, understand and explain the capabilities and limitations of Large Language Models (LLMs), demonstrate technical skills and knowledge in Python and machine learning concepts, and effectively communicate findings and reasoning through clear and concise explanations.
 
