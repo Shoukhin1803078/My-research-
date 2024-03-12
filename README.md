@@ -46,6 +46,8 @@ The GitHub repository link has been submitted within the specified timeframe to 
 """
 # Text Summarization with LLAMA2 and News Category Dataset
 
+Here is the code link:https://colab.research.google.com/drive/1xGH2t4m2kTPkCTEnZZDVYaXawMGSPvp-#scrollTo=w_tXfklT3g8D
+
 This project explores the use of LLAMA2, an advanced language model, for the task of text summarization. We focus on the News Category Dataset to create a model capable of generating concise and meaningful summaries of news articles.
 
 ## 1. Dataset Selection and Rationale
