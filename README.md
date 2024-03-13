@@ -24,7 +24,7 @@ In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some iss
   -  Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
 
 
-- **Model Architecture and Training :** LLaMA-2 might have an architecture or training approach that is particularly well-suited for understanding and condensing text. This could involve more effective ways of capturing the essence of a text and reproducing it succinctly.
+- **Model Architecture and Training :** LLaMA-2 have an architecture or training approach that is particularly well-suited for understanding and condensing text. This could involve more effective ways of capturing the essence of a text and reproducing it succinctly.
 
 - **Training Data :** The datasets used for training LLaMA-2 could include a wide variety of texts that make it more proficient in summarization,text catagory tasks. If these datasets are more diverse or comprehensive in the context of summarization, this could give LLaMA-2 an edge.
 
