@@ -25,6 +25,15 @@ In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some iss
   -  Llama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. For my example questions tested on NVIDIA A10G 24G, inference time spans from 0.2s to 40s.
   -  Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
 
+
+- **Model Architecture and Training :** LLaMA-2 might have an architecture or training approach that is particularly well-suited for understanding and condensing text. This could involve more effective ways of capturing the essence of a text and reproducing it succinctly.
+
+- **Training Data :** The datasets used for training LLaMA-2 could include a wide variety of texts that make it more proficient in summarization,text catagory tasks. If these datasets are more diverse or comprehensive in the context of summarization, this could give LLaMA-2 an edge.
+
+- **Benchmark Performance :** It's possible that in benchmarks or comparative studies, LLaMA-2 has demonstrated superior performance in text summarization tasks. These benchmarks would typically measure accuracy, coherence, conciseness, and the ability to capture key information.
+
+- **Fine-Tuning and Customization: ** LLaMA-2 may offer better options for fine-tuning or customization for specific types of summarization tasks, which can be crucial for achieving high-quality results in diverse applications.
+
     
 ## 3. Model Capability Evaluation
 
