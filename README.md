@@ -53,7 +53,7 @@ I have gathered a set of operational metrics.
 
 ![Screenshot 2024-03-13 200614](https://github.com/Shoukhin1803078/My-research-/assets/62458402/633e98c1-050b-4798-b4b2-75b8455bb0d4)
 
-Learning from the training operational observation:
+### Observation:
 
   -  Llama2 finetunes faster because Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
   -  Llama2 shows better training loss on this finetuning task. Llama2 fits the finetuning data a lot better, but it may also subject to overfitting faster as training epochs increase)
