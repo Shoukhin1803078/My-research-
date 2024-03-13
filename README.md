@@ -2,8 +2,6 @@
 
 Here is the link how I use BERT: https://www.kaggle.com/code/foolofatook/news-classification-using-bert
 
-
-
 """
 # Text Summarization with LLAMA2 and News Category Dataset
 
@@ -17,7 +15,7 @@ This project explores the use of LLAMA2, an advanced language model, for the tas
 
 #### Dataset: News Category Dataset
 
-For this task, I selected the "News Category Dataset" from Kaggle. The dataset contains over 200,000 news articles categorized into different topics such as politics, entertainment, sports, etc. I choose this dataset because:
+For this task, I selected the "News Category Dataset" from Kaggle . The dataset contains over 200,000 news articles categorized into different topics such as politics, entertainment, sports, etc. I choose this dataset because:
 
 - **Data Size**: The dataset is sufficiently large specially it a broad range of news articles (200000 news articales), which is ideal for building and training models or fine-tune Large Language Models (LLMs) effectively.
 - **Relevance to Real-World Applications**: Summarizing news efficiently is crucial for content aggregation platforms, enabling readers to quickly access and understand key information. News articles reflect real-world events and topics, making the dataset relevant to natural language processing tasks.
@@ -30,8 +28,20 @@ For this task, I selected the "News Category Dataset" from Kaggle. The dataset c
 
 
 ## Relevant Kaggle Model
-After selecting the dataset, I searched for existing models on Kaggle that utilize Large Language Models (LLMs)  for text analysis tasks. I identified the "LLAMA2" model as a relevant option. This model is a pre-trained LLM that can be fine-tuned for various natural language processing tasks. Here I explain some reasons for choosing the LLAMA2 model from my evaluation (My evaluation Code is avaiable in this link: )
 
+In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some issues and advantage I mentioned bellow why LLAMA2 is best for this case.Here I explain some reasons for choosing the LLAMA2 model from my evaluation (My evaluation Code is avaiable in this link: )
+- **1. Finetuning Setup:**:
+    Machines(single GPU):
+    NVIDIA A10G 24G ; CUDA Version: 12.2
+- **2. Base models:**:
+    Gemma model: gemma-7b-it
+    Llama2 model: llama-2–7b-chat
+- **3. A few SFTTrainer Configuration(same for Gemma and Llama):**:
+    batch_size: 4
+    max_steps: 300
+    packing: true
+    PEFT method: LoRA
+  
 - **Capability for Text Analysis Tasks**: The Gemma model has demonstrated state-of-the-art performance on tasks such as text generation, sentiment analysis, and question answering, aligning with the objectives of the "News Category Dataset".
 - **Availability and Accessibility**: The Gemma model is available on Kaggle and can be easily accessed for experimentation and fine-tuning.
 
