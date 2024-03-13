@@ -30,21 +30,23 @@ For this task, I selected the "News Category Dataset" from Kaggle . The dataset 
 ## Relevant Kaggle Model
 
 In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some issues and advantage I mentioned bellow why LLAMA2 is best for this case.Here I explain some reasons for choosing the LLAMA2 model from my evaluation (My evaluation Code is avaiable in this link: )
-### Finetuning Setup
+#### Finetuning Setup
     Machines(single GPU): NVIDIA A10G 24G 
     CUDA Version: 12.2
   
-### Base models:
+#### Base models:
     Gemma model: gemma-7b-it
     Llama2 model: llama-2–7b-chat
   
-### A few SFTTrainer Configuration(same for Gemma and Llama):
+#### A few SFTTrainer Configuration(same for Gemma and Llama):
     batch_size: 4
     max_steps: 300
     packing: true
     PEFT method: LoRA
 
-#### Training operation result: I have gathered a set of operational metrics. 
+### Fine Tuning result:
+I have gathered a set of operational metrics. 
+
   
 - **Capability for Text Analysis Tasks**: The Gemma model has demonstrated state-of-the-art performance on tasks such as text generation, sentiment analysis, and question answering, aligning with the objectives of the "News Category Dataset".
 - **Availability and Accessibility**: The Gemma model is available on Kaggle and can be easily accessed for experimentation and fine-tuning.
