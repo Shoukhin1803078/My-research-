@@ -46,6 +46,8 @@ In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some iss
 
 ### Fine Tuning result:
 I have gathered a set of operational metrics. 
+![Screenshot 2024-03-13 200614](https://github.com/Shoukhin1803078/My-research-/assets/62458402/633e98c1-050b-4798-b4b2-75b8455bb0d4)
+
 
   
 - **Capability for Text Analysis Tasks**: The Gemma model has demonstrated state-of-the-art performance on tasks such as text generation, sentiment analysis, and question answering, aligning with the objectives of the "News Category Dataset".
