@@ -55,6 +55,8 @@ I have gathered a set of operational metrics.
 
 ### Observation:
 
+From my evaluation code and result (https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb) we can say that,
+
   -  Llama2 finetunes faster because Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
   -  Llama2 shows better training loss on this finetuning task. Llama2 fits the finetuning data a lot better, but it may also subject to overfitting faster as training epochs increase)
   -  Llama2 outperforms in terms of loading and responding
