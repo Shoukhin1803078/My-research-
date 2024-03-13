@@ -24,10 +24,7 @@ For this task, I selected the "News Category Dataset" from Kaggle . The dataset 
 
 ## 2. Kaggle Model Identification
 
-###  Model: LLAMA2
-
-
-## Relevant Kaggle Model
+###  Model Choosing: LLAMA2
 
 In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some issues and advantage I mentioned bellow why LLAMA2 is best for this case.Here I explain some reasons for choosing the LLAMA2 model from my evaluation (My evaluation Code is avaiable in this link: )
 #### Finetuning Setup
@@ -57,8 +54,8 @@ Learning from the training operational observation:
   -  Llama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. For my example questions tested on NVIDIA A10G 24G, inference time spans from 0.2s to 40s.
 
   
-- **Capability for Text Analysis Tasks**: The Gemma model has demonstrated state-of-the-art performance on tasks such as text generation, sentiment analysis, and question answering, aligning with the objectives of the "News Category Dataset".
-- **Availability and Accessibility**: The Gemma model is available on Kaggle and can be easily accessed for experimentation and fine-tuning.
+- **Capability for Text Analysis Tasks**: The Llama2 model has demonstrated state-of-the-art performance on tasks such as text generation, sentiment analysis, and question answering, aligning with the objectives of the "News Category Dataset".
+- **Availability and Accessibility**: The Llama2 model is available on Kaggle and can be easily accessed for experimentation and fine-tuning.
 
 #### Rationale:
 - **Relevance**: LLAMA2 is specifically engineered for advanced language understanding and generation, making it highly suitable for producing accurate and contextual summaries.
