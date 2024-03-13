@@ -57,7 +57,7 @@ I have gathered a set of operational metrics.
 
 From my evaluation code and result (https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb) we can say that,
 
-  -  Llama2 finetunes faster because Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
+  -  As Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
   -  Llama2 shows better training loss on this finetuning task. Llama2 fits the finetuning data a lot better, but it may also subject to overfitting faster as training epochs increase)
   -  Llama2 outperforms in terms of loading and responding
   -  Llama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. For my example questions tested on NVIDIA A10G 24G, inference time spans from 0.2s to 40s.
