@@ -24,13 +24,7 @@ In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some iss
   -  Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
 
 
-- **Model Architecture and Training :** LLaMA-2 have an architecture or training approach that is particularly well-suited for understanding and condensing text. This could involve more effective ways of capturing the essence of a text and reproducing it succinctly.
 
-- **Training Data :** The datasets used for training LLaMA-2 could include a wide variety of texts that make it more proficient in summarization,text catagory tasks. If these datasets are more diverse or comprehensive in the context of summarization, this could give LLaMA-2 an edge.
-
-- **Benchmark Performance :** It's possible that in benchmarks or comparative studies, LLaMA-2 has demonstrated superior performance in text summarization tasks. These benchmarks would typically measure accuracy, coherence, conciseness, and the ability to capture key information.
-
-- **Fine-Tuning and Customization:** LLaMA-2 may offer better options for fine-tuning or customization for specific types of summarization tasks, which can be crucial for achieving high-quality results in diverse applications.
 
     
 ## 3. Model Capability Evaluation
@@ -68,6 +62,13 @@ Learning from the training operational observation:
   
 - **Capability for Text Analysis Tasks**: The Llama2 model has demonstrated state-of-the-art performance on tasks such as text generation, sentiment analysis, and question answering, aligning with the objectives of the "News Category Dataset".
 - **Availability and Accessibility**: The Llama2 model is available on Kaggle and can be easily accessed for experimentation and fine-tuning.
+- **Model Architecture and Training :** LLaMA-2 have an architecture or training approach that is particularly well-suited for understanding and condensing text. This could involve more effective ways of capturing the essence of a text and reproducing it succinctly.
+
+- **Training Data :** The datasets used for training LLaMA-2 could include a wide variety of texts that make it more proficient in summarization,text catagory tasks. If these datasets are more diverse or comprehensive in the context of summarization, this could give LLaMA-2 an edge.
+
+- **Benchmark Performance :** It's possible that in benchmarks or comparative studies, LLaMA-2 has demonstrated superior performance in text summarization tasks. These benchmarks would typically measure accuracy, coherence, conciseness, and the ability to capture key information.
+
+- **Fine-Tuning and Customization:** LLaMA-2 may offer better options for fine-tuning or customization for specific types of summarization tasks, which can be crucial for achieving high-quality results in diverse applications.
 
 #### Rationale:
 - **Relevance**: LLAMA2 is specifically engineered for advanced language understanding and generation, making it highly suitable for producing accurate and contextual summaries.
