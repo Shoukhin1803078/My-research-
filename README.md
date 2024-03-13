@@ -26,7 +26,8 @@ For this task, I selected the "News Category Dataset" from Kaggle . The dataset 
 
 ###  Model Choosing: LLAMA2
 
-In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some issues and advantage I mentioned bellow why LLAMA2 is best for this case.Here I explain some reasons for choosing the LLAMA2 model from my evaluation (My evaluation Code is avaiable in this link: https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb )
+In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some issues and advantage I mentioned bellow why LLAMA2 is best for this case.Here I explain some reasons for choosing the LLAMA2 model from my evaluation 
+(My evaluation Code is avaiable in this link: https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb )
 #### Finetuning Setup
     Machines(single GPU): NVIDIA A10G 24G 
     CUDA Version: 12.2
