@@ -77,6 +77,9 @@ From my evaluation code and result (https://github.com/Shoukhin1803078/My-resear
 #### Rationale:
 - **Relevance**: LLAMA2 is specifically engineered for advanced language understanding and generation, making it highly suitable for producing accurate and contextual summaries.
 - **Adaptability**: Given its robust NLP capabilities, LLAMA2 can be fine-tuned to grasp the specific nuances and styles required for effective news summarization.
+
+# Code : https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb
+
 """
 
 
