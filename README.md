@@ -30,7 +30,7 @@ In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some iss
 
 - **Benchmark Performance :** It's possible that in benchmarks or comparative studies, LLaMA-2 has demonstrated superior performance in text summarization tasks. These benchmarks would typically measure accuracy, coherence, conciseness, and the ability to capture key information.
 
-- **Fine-Tuning and Customization: ** LLaMA-2 may offer better options for fine-tuning or customization for specific types of summarization tasks, which can be crucial for achieving high-quality results in diverse applications.
+- **Fine-Tuning and Customization:** LLaMA-2 may offer better options for fine-tuning or customization for specific types of summarization tasks, which can be crucial for achieving high-quality results in diverse applications.
 
     
 ## 3. Model Capability Evaluation
