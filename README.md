@@ -30,13 +30,15 @@ For this task, I selected the "News Category Dataset" from Kaggle . The dataset 
 ## Relevant Kaggle Model
 
 In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some issues and advantage I mentioned bellow why LLAMA2 is best for this case.Here I explain some reasons for choosing the LLAMA2 model from my evaluation (My evaluation Code is avaiable in this link: )
-- **1. Finetuning Setup:**:
-    Machines(single GPU):
-    NVIDIA A10G 24G ; CUDA Version: 12.2
-- **2. Base models:**:
+## Finetuning Setup
+    Machines(single GPU): NVIDIA A10G 24G 
+    CUDA Version: 12.2
+  
+## Base models:
     Gemma model: gemma-7b-it
     Llama2 model: llama-2–7b-chat
-- **3. A few SFTTrainer Configuration(same for Gemma and Llama):**:
+  
+## A few SFTTrainer Configuration(same for Gemma and Llama):
     batch_size: 4
     max_steps: 300
     packing: true
