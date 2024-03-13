@@ -1,9 +1,7 @@
 """
 # Home Test Answer: 
 
-## 1. Dataset Selection 
-
-### Option: Text Summarization
+## 1. Dataset Selection : Text Summarization
 
 #### Choosing Dataset: News Category Dataset
 
