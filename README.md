@@ -3,7 +3,7 @@
 
 ## 1. Dataset Selection : Text Summarization
 
-#### Choosing Dataset: News Category Dataset
+### Choosing Dataset: News Category Dataset
 
 For this task, I selected the "News Category Dataset" from Kaggle . The dataset contains over 200,000 news articles categorized into different topics such as politics, entertainment, sports, etc. I choose this dataset because:
 
