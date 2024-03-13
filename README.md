@@ -22,11 +22,10 @@ In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some iss
   -  Llama2 outperforms in terms of loading and responding
   -  Llama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. For my example questions tested on NVIDIA A10G 24G, inference time spans from 0.2s to 40s.
   -  Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
+#### Limitation:  
+lama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. For my example questions tested on NVIDIA A10G 24G, inference time spans from 0.2s to 40s.
 
 
-
-
-    
 ## 3. Model Capability Evaluation
 
 Here I show some reasons for choosing the LLAMA2 model from my evaluation
