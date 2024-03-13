@@ -18,7 +18,11 @@ For this task, I selected the "News Category Dataset" from Kaggle . The dataset 
 
 ###  Model Choosing: LLAMA2
 
-In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some issues and advantage I mentioned bellow why LLAMA2 is best fit for this case. Here I explain some reasons for choosing the LLAMA2 model from my evaluation 
+In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some issues and advantage I mentioned bellow why LLAMA2 is best fit for this case. Here I explain some reasons for choosing the LLAMA2 model from my evaluation
+  -  Llama2 finetunes faster. This is likely because Llama2–7b is a smaller than gemma-7b.
+  -  Llama2 shows better training loss on this finetuning task. Llama2 fits the finetuning data a lot better, but it may also subject to overfitting faster as training epochs increase)
+  -  Llama2 outperforms in terms of loading and responding
+  -  Llama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. For my example questions tested on NVIDIA A10G 24G, inference time spans from 0.2s to 40s.
 (My evaluation Code is avaiable in this link: https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb )
 
 
@@ -43,10 +47,7 @@ I have gathered a set of operational metrics.
 
 Learning from the training operational observation:
 
-  -  Llama2 finetunes faster. This is likely because Llama2–7b is a smaller than gemma-7b.
-  -  Llama2 shows better training loss on this finetuning task. Llama2 fits the finetuning data a lot better, but it may also subject to overfitting faster as training epochs increase)
-  -  Llama2 outperforms in terms of loading and responding
-  -  Llama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. For my example questions tested on NVIDIA A10G 24G, inference time spans from 0.2s to 40s.
+  
 
   
 - **Capability for Text Analysis Tasks**: The Llama2 model has demonstrated state-of-the-art performance on tasks such as text generation, sentiment analysis, and question answering, aligning with the objectives of the "News Category Dataset".
