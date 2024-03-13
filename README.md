@@ -69,16 +69,6 @@ Learning from the training operational observation:
 #### Rationale:
 - **Relevance**: LLAMA2 is specifically engineered for advanced language understanding and generation, making it highly suitable for producing accurate and contextual summaries.
 - **Adaptability**: Given its robust NLP capabilities, LLAMA2 can be fine-tuned to grasp the specific nuances and styles required for effective news summarization.
-
-
-#### Performance Metrics: 
-- Utilize metrics like BLEU and ROUGE to measure the quality and accuracy of the generated summaries compared to human-written references.
-
-#### Architecture:
-- A comprehensive understanding of LLAMA2’s architecture is critical for optimizing its summarization performance.
-
-#### Training/Fine-tuning Potential:
-- Evaluate the feasibility of further training LLAMA2 on the news dataset, taking into account factors like computational resources and the volume of data required for effective learning.
 """
 
 
