@@ -1,7 +1,8 @@
 """
 # Home Test Answer: 
 
-## 1. Dataset Selection : Text Summarization
+## 1. Dataset Selection : [Text Summarization](https://www.kaggle.com/datasets/rmisra/news-category-dataset)
+
 
 ### Choosing Dataset: News Category Dataset
 
@@ -12,9 +13,9 @@ For this task, I selected the "News Category Dataset" from Kaggle . The dataset 
 - **Potential for Creative Exploration**: The diverse range of news categories allows for creative exploration using prompt engineering techniques.
 
 
-## 2. Kaggle Model Identification
+## 2. Kaggle Model Selection
 
-###  Model Choosing: LLAMA2
+###  Model Choosing: [LLAMA2](https://llama.meta.com/llama2)
 
 In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some issues and advantage I mentioned bellow why LLAMA2 is best fit for this case. Here I explain some reasons for choosing the LLAMA2 model from my evaluation
   -  Llama2 finetunes faster. 
@@ -28,7 +29,7 @@ In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some iss
    - **Dependence on Training Data:** The performance of LLaMA-2 is heavily dependent on the quality and diversity of its training data. If there are gaps or limitations in this data, the model's performance can be negatively affected in those areas.
    - **Adaptability and Learning Over Time:** Unlike humans, LLaMA-2 cannot learn or adapt from new information in real-time once it has been trained. This means it may become outdated or less relevant as language, culture, and world knowledge evolve.
 
-Though it has some limitation but this model performs better than other model in this case. I show the reason how it perform better in the bellow section.
+Though it has some limitation but this model performs better than other model in this dataset. I show the reason how it perform better in the bellow section.
 
 
 
@@ -54,21 +55,24 @@ Here I show some reasons for choosing the LLAMA2 model from my evaluation
     PEFT method: LoRA
 
 ### Fine Tuning result:
-I have gathered a set of operational metrics. 
+Here the comparison table for this dataset.
 
 ![Screenshot 2024-03-13 200614](https://github.com/Shoukhin1803078/My-research-/assets/62458402/633e98c1-050b-4798-b4b2-75b8455bb0d4)
 
 ### Observation:
 
-From my evaluation code and result (https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb) we can say that,
+From my evaluation [code and result](https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb) we can say that,
 
   -  As Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
   -  Llama2 shows better training loss on this finetuning task. Llama2 fits the finetuning data a lot better, but it may also subject to overfitting faster as training epochs increase)
   -  Llama2 outperforms in terms of loading and responding
   -  Llama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. For my example questions tested on NVIDIA A10G 24G, inference time spans from 0.2s to 40s.
-  
-- **Capability for Text Analysis Tasks**: The Llama2 model has demonstrated state-of-the-art performance on tasks such as text generation, sentiment analysis, and question answering, aligning with the objectives of the "News Category Dataset".
-- **Availability and Accessibility**: The Llama2 model is available on Kaggle and can be easily accessed for experimentation and fine-tuning.
+
+
+## Architectral Comparison between LLAMA2 and Other Models
+
+- **Capability for Text Analysis Tasks**: The Llama2 model has clearly demonstrated state-of-the-art performance on tasks such as text generation, sentiment analysis and question answering aligning with the objectives of the "News Category Dataset".
+- **Availability and Accessibility**: The Llama2 model is available on Kaggle and we can be easily accessed for experimentation and fine-tuning.
 - **Model Architecture and Training :** LLaMA-2 have an architecture or training approach that is particularly well-suited for understanding and condensing text. This could involve more effective ways of capturing the essence of a text and reproducing it succinctly.
 
 - **Training Data :** The datasets used for training LLaMA-2 could include a wide variety of texts that make it more proficient in summarization,text catagory tasks. If these datasets are more diverse or comprehensive in the context of summarization, this could give LLaMA-2 an edge.
