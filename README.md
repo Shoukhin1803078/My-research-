@@ -4,7 +4,7 @@
 ## 1. Dataset Selection : [Text Summarization](https://www.kaggle.com/datasets/rmisra/news-category-dataset)
 
 
-### Choosing Dataset: News Category Dataset
+### Choosing Dataset: [News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset)
 
 For this task, I selected the "News Category Dataset" from Kaggle . The dataset contains over 200,000 news articles categorized into different topics such as politics, entertainment, sports, etc. I choose this dataset because:
 
@@ -85,9 +85,9 @@ From my evaluation [code and result](https://github.com/Shoukhin1803078/My-resea
 - **Relevance**: LLAMA2 is specifically engineered for advanced language understanding and generation, making it highly suitable for producing accurate and contextual summaries.
 - **Adaptability**: Given its robust NLP capabilities, LLAMA2 can be fine-tuned to grasp the specific nuances and styles required for effective news summarization.
 
-From the above discussion and clarification I can say that  News Category Dataset[https://www.kaggle.com/datasets/rmisra/news-category-dataset] is best choice and  for this dataset [LLAMA2](https://llama.meta.com/llama2) is better perform than other model . 
+From the above discussion and clarification I can say that  [News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset) is best choice and  for this dataset [LLAMA2](https://llama.meta.com/llama2) is better perform than other model . 
 
-# Code : https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb
+# My Evaluation Code Using LLAMA2 : https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb
 
 """
 
