@@ -1,4 +1,4 @@
-"""
+
 # Home Test Answer: 
 
 ## 1. Dataset Selection : [Text Summarization](https://www.kaggle.com/datasets/rmisra/news-category-dataset)
@@ -87,8 +87,9 @@ From my evaluation [code and result](https://github.com/Shoukhin1803078/My-resea
 
 From the above discussion and clarification I can say that  [News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset) is best choice and  for this dataset [LLAMA2](https://llama.meta.com/llama2) is better perform than other model . 
 
-# My Evaluation Code Using LLAMA2 : https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb
+## My Evaluation Code Using LLAMA2 : 
 
-"""
+https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb
+
 
 
