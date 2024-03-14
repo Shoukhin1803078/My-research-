@@ -28,7 +28,7 @@ In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some iss
    - **Dependence on Training Data:** The performance of LLaMA-2 is heavily dependent on the quality and diversity of its training data. If there are gaps or limitations in this data, the model's performance can be negatively affected in those areas.
    - **Adaptability and Learning Over Time:** Unlike humans, LLaMA-2 cannot learn or adapt from new information in real-time once it has been trained. This means it may become outdated or less relevant as language, culture, and world knowledge evolve.
 
-Though it has some limitation but this model performs better than other model 
+Though it has some limitation but this model performs better than other model in this case. I show the reason how it perform better in the bellow section.
 
 
 
