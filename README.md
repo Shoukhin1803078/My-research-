@@ -22,18 +22,21 @@ In this scenario here LLAMA2 is better than GEMMA and Falcon 7B because some iss
   -  Llama2 outperforms in terms of loading and responding
   -  Llama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. For my example questions tested on NVIDIA A10G 24G, inference time spans from 0.2s to 40s.
   -  Llama2–7b is a smaller than gemma-7b so it is faster to fintune .
+
 #### Limitation:  
  This model has some disadvantage too. Here I mentioned, 
    - **Dependence on Training Data:** The performance of LLaMA-2 is heavily dependent on the quality and diversity of its training data. If there are gaps or limitations in this data, the model's performance can be negatively affected in those areas.
-
    - **Adaptability and Learning Over Time:** Unlike humans, LLaMA-2 cannot learn or adapt from new information in real-time once it has been trained. This means it may become outdated or less relevant as language, culture, and world knowledge evolve.
-lama2 responses a bit faster than Gemma. The response time highly depends on the number of generated tokens. The longer the response, the slower the inference. 
+
+Though it has some limitation but this model performs better than other model 
+
+
 
 ## 3. Model Capability Evaluation
 
 Here I show some reasons for choosing the LLAMA2 model from my evaluation
 
-(My evaluation Code is avaiable in this link: https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb )
+(My evaluation Code is given in this link: https://github.com/Shoukhin1803078/My-research-/blob/main/BDMLI.ipynb )
 
 
 #### Finetuning Setup
