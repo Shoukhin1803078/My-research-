@@ -1,1 +1,76 @@
 https://github.com/anumitgarg/Hybrid-CNN-RNN-Model-for-Hyperspectral-Satellite-Image-Classification/blob/master/notebooks/Hybrid%20CNN-%20RNN%20Model.ipynb
+
+
+Can you generate a paragraph that consist of  completely different word but the gist is same as this paragraph:
+
+araphrase this paragraph . You should give me completely different paragraph but the content meaning should be same as this paragraph:
+
+
+
+Problem description:
+Detective Chokro is on the hunt for a murderer who fled the crime scene using the village backroads to avoid
+capture. Chokro only has a map showing the main roads, not the hidden backroads. Imagine the city as a
+maze. Each intersection is a point labeled from 1 to N, and the main roads connecting them are the visible
+paths. The missing connections between these points represent the hidden backroads the murderer might
+have taken.
+
+Chokro stands at a specific point S on the map. He needs to find the quickest route through these hidden
+backroads to reach any other point in the city. Quickest, in this case, means traveling through the fewest
+number of backroads. In other words, Chokro needs to calculate the shortest distance (number of backroads)
+between his starting point S and every other point in the city, considering only the hidden backroads
+(connections not shown on the map) for travel.
+
+Input Format:
+
+The first line contains T, denoting the number of test cases.
+
+First line of each test case has two integers N, denoting the number of points in the map and M, denoting
+the number of roads in the map.
+
+The next M lines each consist of two space-separated integers u and v denoting a main visible road between
+point uw and point v.
+
+The last line has an integer S, denoting the current position of Chokro.
+
+
+
+Note:
+
+1.There will not be more than one road between any pair of points
+
+2.No points will have a road to itself
+
+3.There will always be a path between any pair of points using the village backroads
+
+
+
+
+Constraints:
+
+a) 1<=T<=10
+b) 2<=N<=2*10^5
+c) 1<= M <= 120000
+d) 1<= u,v,S<= N
+
+Output Format:
+For each of T test cases, print a single line consisting of N — 1 space separated integers, denoting the
+shortest distances of the remaining N — 1 places from Chokro's position (that is all distances, except the
+source node to itself) using the village backroads in ascending order based on intersection number.
+
+
+Sample Input 0 :
+
+2
+4 2
+1 2
+2 3
+2
+4 3
+1 2
+2 3
+1 4
+1
+
+Sample Output 0: 
+2 2 1
+3 1 2
